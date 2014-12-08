@@ -1,0 +1,145 @@
+/* line 3, ../../../../../Downloads/barry/Website/input/landingpagestyle.sass */
+body {
+  background-image: url(../images/background1.png);
+  background-position: center center;
+  background-repeat: repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  color: white;
+  padding: 0px;
+  margin: 0px;
+}
+
+/* line 13, ../../../../../Downloads/barry/Website/input/landingpagestyle.sass */
+.page-header {
+  font-family: "Lobster";
+  text-align: center;
+  margin-top: 0px;
+  border-bottom: 0;
+  margin-bottom: 0;
+  font-weight: 100;
+}
+
+/* line 21, ../../../../../Downloads/barry/Website/input/landingpagestyle.sass */
+.spaceabove {
+  margin-top: 20px;
+  padding-bottom: 20px;
+}
+
+/* line 25, ../../../../../Downloads/barry/Website/input/landingpagestyle.sass */
+hr {
+  margin-top: 20px;
+}
+
+/* line 29, ../../../../../Downloads/barry/Website/input/landingpagestyle.sass */
+#hplogo img {
+  height: 120px;
+  margin: 0;
+  padding: 18px 0 0 18px;
+}
+
+/* line 34, ../../../../../Downloads/barry/Website/input/landingpagestyle.sass */
+p {
+  font-size: 1.1em;
+}
+
+/* line 37, ../../../../../Downloads/barry/Website/input/landingpagestyle.sass */
+.col-md-6 {
+  text-align: center;
+}
+
+/* line 40, ../../../../../Downloads/barry/Website/input/landingpagestyle.sass */
+.row {
+  text-align: center;
+}
+
+/* line 43, ../../../../../Downloads/barry/Website/input/landingpagestyle.sass */
+img {
+  margin: 0 auto;
+}
+
+/* line 46, ../../../../../Downloads/barry/Website/input/landingpagestyle.sass */
+.portfolio-item {
+  margin: 0 auto;
+}
+
+/* line 49, ../../../../../Downloads/barry/Website/input/landingpagestyle.sass */
+h3 {
+  font-size: 1.4em;
+  color: black;
+}
+
+/* line 53, ../../../../../Downloads/barry/Website/input/landingpagestyle.sass */
+h2 {
+  font-size: 1.8em;
+}
+
+/* line 56, ../../../../../Downloads/barry/Website/input/landingpagestyle.sass */
+.btnbox {
+  margin: 0 auto;
+  text-align: center;
+  max-width: 200px;
+  padding-top: 10px;
+}
+
+/* line 62, ../../../../../Downloads/barry/Website/input/landingpagestyle.sass */
+.transparentbox {
+  background: rgba(255, 255, 255, 0.7);
+  width: 80%;
+  padding: 20px;
+  border-radius: 12px;
+  margin: 0 auto;
+  margin-bottom: 40px;
+}
+
+/* line 72, ../../../../../Downloads/barry/Website/input/landingpagestyle.sass */
+.btn-primary {
+  border: solid 2px red;
+  border-color: #34495e;
+  background-color: transparent;
+  color: black;
+}
+
+/* line 78, ../../../../../Downloads/barry/Website/input/landingpagestyle.sass */
+.btn-primary:hover {
+  background-color: #34495e;
+  border-color: #34495e;
+}
+
+/* line 82, ../../../../../Downloads/barry/Website/input/landingpagestyle.sass */
+#transparentboxlong {
+  background: rgba(255, 255, 255, 0.7);
+  width: 90.5%;
+  padding: 20px;
+  border-radius: 12px;
+  margin: 0 auto;
+  margin-bottom: 15px;
+}
+/* line 89, ../../../../../Downloads/barry/Website/input/landingpagestyle.sass */
+#transparentboxlong p {
+  color: black;
+  padding-bottom: 5px;
+}
+
+/* line 94, ../../../../../Downloads/barry/Website/input/landingpagestyle.sass */
+.social {
+  margin: 0 10px 30px 10px;
+}
+
+/* line 97, ../../../../../Downloads/barry/Website/input/landingpagestyle.sass */
+.col-md-6 {
+  padding-right: 5px;
+  padding-left: 5px;
+  margin-right: 0px;
+}
+
+@media (max-width: 990px) {
+  /* line 103, ../../../../../Downloads/barry/Website/input/landingpagestyle.sass */
+  #transparentboxlong {
+    width: 80%;
+  }
+}
+/* line 106, ../../../../../Downloads/barry/Website/input/landingpagestyle.sass */
+.logos {
+  text-align: left;
+}
