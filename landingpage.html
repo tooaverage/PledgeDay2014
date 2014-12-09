@@ -38,18 +38,24 @@
 </head>
 
 <body>
-
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.0";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
     <!-- Page Content -->
-<div id="hplogo"><img src="images/hplogocut.png"></div>
     	<div class="container">
         <!-- Page Header -->
         <div class="row">
             <div class="col-lg-12">
                 <h1 class="page-header">Pledge Day 2014</h1>
                  <p>A day to engage with the homeless people in your community and make an impact.
-                 <br>Give a small gift and make a big difference.</p>
-            	<img src="images/PNG/snowflakedivider.png" alt="snowflake">
-            	<h2>5 Ways to Get Involved</h2>
+                 Give a small gift and make a big difference.</p>
+                 <div id="snowflake"><img src="images/PNG/snowflakedivider.png" alt="snowflake"></div>                
+	          	<h2>5 Ways to Get Involved</h2>
             	<br>
             </div>       
         </div>
@@ -57,63 +63,74 @@
 
         <!-- Projects Row -->
         <div class="row">
-            <div class="col-md-6 portfolio-item">
+        	<div id="seperaterow">
+        	<div class="col-md-2"> </div>
+            <div class="col-md-4">
                 <div class="transparentbox">
 					<img class="img-responsive" src="images/SVG/gift-box.svg" alt="">
 					<h3>
-						Read Stories <br>& Pledge Gifts
+						Read Stories <br>&amp; Pledge Gifts
 					</h3>
-					<div class="btnbox"><a href="http://www.homelesspartners.com/" class="btn btn-lg btn-block btn-inverse">View Stories</a></div>
+					<div class="btnbox"><a href="http://www.homelesspartners.com/" class="btn btn-block btn-primary">View Stories</a></div>
 				</div>
 			</div>
 
-            <div class="col-md-6 portfolio-item">
+            <div class="col-md-4">
                 <div class="transparentbox">
 					<img class="img-responsive" src="images/SVG/box.svg" alt="">
 					<h3>
 						Drop Off Supplies <br>at a Local Shelter
 					</h3>
-					<div class="btnbox"><a href="http://www.homelesspartners.com/" class="btn btn-lg btn-block btn-primary">List of Shelters</a></div>
+					<div class="btnbox"><a href="http://www.homelesspartners.com/" class="btn btn-sm btn-block btn-primary">List of Shelters</a></div>
 				</div>
 			</div>
-		</div>
+			<div class="col-md-2"> </div>
+			</div>
+		</div> 
+
         <!-- /.row -->
 
         <!-- Projects Row -->
         <div class="row">
-            <div class="col-md-6 portfolio-item">
+        	<div class="col-md-2"> </div>
+            <div class="col-md-4 portfolio-item">
                 <div class="transparentbox">
 					<img class="img-responsive" src="images/SVG/medal.svg" alt="">
 					<h3>
 						Donate Money to<br>Homeless Partners
 					</h3>
-					<div class="btnbox"><a href="http://www.homelesspartners.com/" class="btn btn-lg btn-block btn-primary">Donate</a></div>
+					<div class="btnbox"><a href="http://www.homelesspartners.com/" class="btn btn-sm btn-block btn-primary">Donate</a></div>
 				</div>
 			</div>
 
-            <div class="col-md-6 portfolio-item">
+            <div class="col-md-4 portfolio-item">
                 <div class="transparentbox">
 					<img class="img-responsive" src="images/SVG/chat.svg" alt="">
 					<h3>
-						Talk With a Homeless Person & Hear Their Story
+						Talk With a Homeless Person &amp; Hear Their Story
 					</h3>
-					<div class="btnbox"><a href="http://www.homelesspartners.com/" class="btn btn-lg btn-block btn-primary">View Stories</a></div>
+	
+					<div class="btnbox"><a href="http://www.homelesspartners.com/" class="btn btn-sm btn-block btn-primary">View Stories</a></div>
 				</div>
 			</div>
+			<div class="col-md-2"> </div>
 		</div>
+		
         <!-- /.row -->
 		<div class="row">
-            <div class="col-md-12">
-                <div id="transparentboxlong"> 
-                	<h3>
-						#PledgeDay2014
-					</h3>
-					<div id="spreadaware"><p>Spread awareness by sharing how you're making a difference <br>in your community using this hashtag</p></div>
-					<a href="http://www.twitter.com/HPartners"><img class="social" src="images/SVG/twitter.svg" alt="Twitter"></a>
-					<a href="http://instagram.com/HPartners"><img class="social" src="images/SVG/instagram.svg" alt="Instagram"></a>
-					<a href="http://facebook.com/HPartners"><img class="social" src="images/SVG/facebook.svg" alt="Facebook"></a>
-				</div>
-			</div>
+			<div class="col-md-2"> </div>
+            	<div class="col-md-8"> 
+                	<div id="transparentboxlong2"> 
+                		<h3>
+							#PledgeDay2014
+						</h3>
+						<div id="spreadaware"><p>Spread awareness by sharing how you're making a difference <br>in your community using this hashtag</p></div>
+							<a href="https://twitter.com/intent/tweet?button_hashtag=PledgeDay2014&text=I'm%20giving%20back%20to%20the%20community%20by...%20" class="twitter-hashtag-button" data-size="large" data-related="HomelessPartners">Tweet #PledgeDay2014</a>
+							<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+						</div>
+					</div>
+				</div>	
+			<div class="col-md-2"> </div>
 		</div>
 
 <!-- row -->		
@@ -124,29 +141,32 @@
         </div>
  <!-- /.row -->
 		<div class="row">
-            <div class="col-md-6"> 
+			<div class="col-md-2"> </div>		
+            <div class="col-md-4"> 
             	<div class="logos">
-                	<img class="img-responsive" src="images/PNG/vancitybuzz.png" alt="">
+                	<a href="http://www.vancitybuzz.com" target="_blank"><img class="img-responsive" src="images/PNG/vancitybuzz.png" alt="Vancity Buzz"></a>
 				</div>
 			</div>
-			<div class="col-md-6"> 
+			<div class="col-md-4"> 
                 <div class="logos">
-                	<img class="img-responsive" src="images/PNG/viralfoundry.png" alt="">
+                 	<a href="http://www.viralfoundry.com" target="_blank"><img class="img-responsive" src="images/PNG/viralfoundry.png" alt="Viral Foundry"></a>
 				</div>
 			</div>
 		</div>
 		
 		<div class="row">
-			<div class="col-md-6"> 
+			<div class="col-md-2"> </div>
+			<div class="col-md-4"> 
                 <div class="logos">
-                	<img class="img-responsive" src="images/PNG/metrotown.png" alt="">
+                	<a href="http://www.metrotown.com" target="_blank"><img class="img-responsive" src="images/PNG/metrotown.png" alt="Metrotown"></a>
 				</div>
 			</div>
-			<div class="col-md-6"> 
+			<div class="col-md-4"> 
                 <div class="logos">
-                	<img class="img-responsive" src="images/PNG/hope.png" alt="">
+                	<a href="http://www.hopeww.com" target="_blank"><img class="img-responsive" src="images/PNG/hope.png" alt="Hope"></a>
 				</div>
 			</div>
+			<div class="col-md-2"> </div>
 		</div>
 
         <!-- Pagination -->
